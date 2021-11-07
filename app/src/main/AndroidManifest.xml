@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.mmitschool">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MMITSchool">
         <activity
+            android:name=".login.LoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +27,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
