@@ -2,24 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<!--    <item-->
-<!--        android:id="@+id/dashboardNav"-->
-<!--        android:icon="@drawable/vector_dashboard"-->
-<!--        android:title="Dashboard" />-->
 
-<!--    <item-->
-<!--        android:id="@+id/listNav"-->
-<!--        android:icon="@drawable/vector_list"-->
-<!--        android:title="Parcel List" />-->
-<!--    <item-->
-<!--        android:id="@+id/traceParcelNav"-->
-<!--        android:title="Trace Parcel"-->
-<!--        android:icon="@drawable/vector_location_city"-->
-<!--        />-->
 
-<!--    <item-->
-<!--        android:id="@+id/accountNav"-->
-<!--        android:icon="@drawable/vector_account"-->
-<!--        android:title="Account" />-->
+    <item
+        android:id="@+id/bottom_nav_listNav"
+        android:icon="@drawable/video_lecture"
+        android:title="Video Lecture" />
+    <item
+        android:id="@+id/bottom_nav_my_school"
+        android:icon="@drawable/school"
+        android:title="My School" />
+    <item
+        android:id="@+id/bottom_nav_online_exam"
+        android:title="Online Exam"
+        android:icon="@drawable/online_exam"
+        />
+
+
 
 </menu>

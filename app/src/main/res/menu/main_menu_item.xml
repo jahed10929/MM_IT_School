@@ -2,19 +2,50 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/vector_account"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_attendance"
+        android:icon="@drawable/calendar_today"
+        android:title="Attendance" />
+    <item
+        android:id="@+id/nav_class_routine"
+        android:icon="@drawable/class_icon"
+        android:title="Class Routine" />
+    <item
+        android:id="@+id/nav_exam_routine"
+        android:icon="@drawable/ic_exam"
+        android:title="Exam Routine" />
+    <item
+        android:id="@+id/nav_exam_report"
+        android:icon="@drawable/ic_assignment"
+        android:title="Exam Report" />
+    <item
+        android:id="@+id/nav_Payment"
+        android:icon="@drawable/payments"
+        android:title="My Payment" />
+
+
 
 
     <item
-        android:id="@+id/nav_home"
-        android:icon="@drawable/vector_home"
-        android:title="Home" />
+    android:id="@+id/nav_home"
+    android:icon="@drawable/vector_home"
+    android:title="Home" />
 
+    <item
+    android:id="@+id/nav_change_password"
+    android:icon="@drawable/password"
+    android:title="Change Password" />
 
 
     <item
         android:id="@+id/nav_Logout"
         android:icon="@drawable/vector_logout"
         android:title="Log Out" />
+
 
 
 

@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/calendar_today.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/class_icon.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ic_assignment.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ic_exam.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ic_exam_report.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/outline_account_circle_grey_400_24dp.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/password.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ripple_effect.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/shape_navigation.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_account.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_home.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_lock.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_logout.xml" value="0.2203125" />
@@ -12,9 +20,10 @@
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/lyt_header.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/toolbar_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
-        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/menu/main_menu_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/menu/main_menu_item.xml" value="0.67" />
       </map>
     </option>
   </component>
