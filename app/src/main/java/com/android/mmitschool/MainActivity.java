@@ -6,11 +6,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
+import com.android.mmitschool.attendance.AttendanceActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -27,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ActionBarDrawerToggle actionBarDrawerToggle;
 
 
+    LinearLayout attendance_view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +45,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
+        attendance_view = findViewById(R.id.attendance_view);
+
+
         actionBarDrawerToggle = new ActionBarDrawerToggle(MainActivity.this, drawerLayout, toolbar, R.string.nav_drawer_open, R.string.nav_drawer_close);
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
@@ -50,5 +59,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return false;
+    }
+
+    public void onButtonClick(View view) {
+        int id = view.getId();
+        switch (id){
+            case R.id.attendance_view:
+                startActivity(new Intent(MainActivity.this, AttendanceActivity.class));
+                finish();
+                break;
+        }
+
+
     }
 }

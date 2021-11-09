@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
@@ -9,4 +10,6 @@
     app:contentInsetLeft="0dp"
     app:contentInsetStart="0dp"
     app:contentInsetStartWithNavigation="0dp"
-    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+    />

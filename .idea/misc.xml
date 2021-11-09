@@ -3,20 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/abcent_tv_back.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/calendar_today.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/card_shadow.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/card_shadow_with_main_color.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/class_icon.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/green_round_background.xml" value="0.1125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ic_assignment.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ic_exam.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ic_exam_report.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/main_page_layout_background.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/outline_account_circle_grey_400_24dp.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/password.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/present_tv_back.xml" value="0.1125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/ripple_effect.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/round_red_background.xml" value="0.1125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/shape_navigation.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_account.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_home.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_lock.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_logout.xml" value="0.2203125" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/drawable/vector_mail.xml" value="0.2203125" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_attendance.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />

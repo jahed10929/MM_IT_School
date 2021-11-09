@@ -12,9 +12,13 @@
     <color name="Indigo_500">#3F51B5</color>
     <color name="Indigo_200">#9FA8DA</color>
     <color name="cyan_500"> #00bcd4</color>
+    <color name="cyan_50"> #E0F7FA</color>
     <color name="cyan_dark">#008ba3</color>
     <color name="cyan_light">#62efff</color>
     <color name="gray_600">#757575</color>
     <color name="gray_light">#a4a4a4</color>
     <color name="gray_dark">#494949</color>
+    <color name="red">#e92020</color>
+    <color name="green">#0bac00</color>
+
 </resources>
