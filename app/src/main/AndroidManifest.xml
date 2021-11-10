@@ -14,6 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MMITSchool">
         <activity
+            android:name=".exam_routin.ExamRoutineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".class_rutine.ClassRutineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".fees.DueFeesActivity"
+            android:exported="true" />
+        <activity
             android:name=".attendance.AttendanceActivity"
             android:exported="true" />
         <activity

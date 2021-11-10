@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan_500"
+    tools:context=".exam_routin.ExamRoutineActivity">
+    <include layout="@layout/toolbar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/main_page_layout_background"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/exam_routine_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

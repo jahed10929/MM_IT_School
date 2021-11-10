@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fees.DueFeesActivity"
+    android:background="@color/cyan_500"
+    >
+    <include layout="@layout/toolbar_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar"
+        android:background="@drawable/main_page_layout_background"
+        android:layout_marginTop="20dp"
+
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/due_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/complete_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@drawable/card_shadow_with_gra_color"
+    app:cardCornerRadius="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Receipt No."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/receipt_no_tv"
+                    android:text="#109548"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_light"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Month"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/month_tv"
+                    android:text="October"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Date"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/payment_date_tv"
+                    android:text="20 Nov 2021"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_light"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Panding Amount"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/total_tv"
+                    android:text="\u09F3 1000"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/cyan_500"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/pay_now"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAY NOW"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow_right"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
