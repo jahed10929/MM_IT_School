@@ -1,4 +1,4 @@
-package com.android.mmitschool.exam_routin;
+package com.android.mmitschool.exam.exam_routin;
 
 public class ExamRoutineModel {
     private String exam_date;

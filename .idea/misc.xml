@@ -28,15 +28,19 @@
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_attendance.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_class_rutine.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_due_fees.xml" value="0.20416666666666666" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_exam.xml" value="0.19010416666666666" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_exam_report.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_exam_routine.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/class_routine_list_view.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/complete_recycler_listview.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/custom_tab.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/custom_tab_layout_view.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/due_recycler_listview.xml" value="0.2" />
+        <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/exam_report_recycler_view_list.xml" value="0.22" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/exam_routine_list_view.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/fragment_saturday_routine.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileApplication/MMITSchool/app/src/main/res/layout/fragment_sunday_routine.xml" value="0.20416666666666666" />

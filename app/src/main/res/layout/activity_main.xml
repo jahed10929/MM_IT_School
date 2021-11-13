@@ -41,8 +41,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Student Name"
-                        android:textSize="26sp"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        android:textSize="26sp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -98,7 +98,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="500dp"
+                    android:layout_height="250dp"
                     android:layout_below="@+id/imglogo"
                     android:layout_marginTop="30dp"
                     android:background="@drawable/main_page_layout_background" />
@@ -209,9 +209,10 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_below="@+id/layout1"
                     android:layout_marginTop="10dp"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -223,12 +224,13 @@
                         android:weightSum="2">
 
                         <LinearLayout
-                            android:id="@+id/lyt_my_attendance"
+                            android:id="@+id/lyt_my_profile"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:layout_weight="1"
                             android:background="@drawable/card_shadow"
+                            android:onClick="onButtonClick"
                             android:orientation="vertical"
                             android:padding="10dp">
 
@@ -237,14 +239,14 @@
                                 android:layout_height="70dp"
                                 android:layout_above="@+id/tv1"
                                 android:layout_gravity="left"
-                                android:src="@drawable/immigration"
-                                android:padding="5dp"/>
+                                android:padding="5dp"
+                                android:src="@drawable/immigration" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:padding="5dp"
-                                android:text="Attendance"
+                                android:text="Profile"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                                 android:textColor="@color/black"
 
@@ -258,10 +260,9 @@
                             android:layout_margin="10dp"
                             android:layout_weight="1"
                             android:background="@drawable/card_shadow"
-                            android:orientation="vertical"
-                            android:padding="10dp"
                             android:onClick="onButtonClick"
-                            >
+                            android:orientation="vertical"
+                            android:padding="10dp">
 
                             <ImageView
                                 android:layout_width="70dp"
@@ -276,13 +277,8 @@
                                 android:padding="5dp"
                                 android:text="Class Routine"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                                android:textColor="@color/black"
-
-                                />
-
+                                android:textColor="@color/black" />
                         </LinearLayout>
-
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -290,10 +286,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:orientation="horizontal"
-                        android:weightSum="2"
                         android:layout_marginBottom="20dp"
-                        >
+                        android:orientation="horizontal"
+                        android:weightSum="2">
 
                         <LinearLayout
                             android:id="@+id/lyt_my_exam_routine"
@@ -302,20 +297,18 @@
                             android:layout_margin="10dp"
                             android:layout_weight="1"
                             android:background="@drawable/card_shadow"
+                            android:onClick="onButtonClick"
                             android:orientation="vertical"
                             android:padding="10dp"
-                            android:weightSum="1"
-                            android:onClick="onButtonClick"
-                            >
+                            android:weightSum="1">
 
                             <ImageView
                                 android:layout_width="70dp"
                                 android:layout_height="70dp"
                                 android:layout_above="@+id/tv1"
                                 android:layout_gravity="left"
-                                android:src="@drawable/exam_routine"
                                 android:padding="5dp"
-                                />
+                                android:src="@drawable/exam_routine" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -323,10 +316,7 @@
                                 android:padding="5dp"
                                 android:text="Exam Routine"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                                android:textColor="@color/black"
-
-
-                                />
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -336,6 +326,7 @@
                             android:layout_margin="10dp"
                             android:layout_weight="1"
                             android:background="@drawable/card_shadow"
+                            android:onClick="onButtonClick"
                             android:orientation="vertical"
                             android:padding="10dp">
 
@@ -355,35 +346,11 @@
 
                                 />
                         </LinearLayout>
-
-
                     </LinearLayout>
-
                 </LinearLayout>
-
             </RelativeLayout>
         </ScrollView>
-
-
-
         <!--Main page header layout-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <!--bottom NavigationView-->
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -396,8 +363,9 @@
             app:itemIconTint="@color/white"
             app:itemRippleColor="@color/cyan_light"
             app:itemTextColor="@color/white"
-            app:menu="@menu/bottom_nav_menu" />
-
+            app:menu="@menu/bottom_nav_menu"
+            android:elevation="8dp"
+            />
 
     </RelativeLayout>
 

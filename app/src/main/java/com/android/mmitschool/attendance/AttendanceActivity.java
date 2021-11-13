@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -42,30 +44,10 @@ public class AttendanceActivity extends AppCompatActivity {
 
 
 
-        calendar = Calendar.getInstance();
-        int diff = calendar.get(Calendar.JANUARY);
+        CalendarView simpleCalendarView = (CalendarView) findViewById(R.id.calendar_view); // get the reference of CalendarView
+//        simpleCalendarView.setDate(1463918226920L); // set selected date 22 May 2016 in milliseconds
 
-        //cal = Calendar.getInstance(); // In Thailand this gives the buddhist calendar, do you want this?
-        calendar.add(Calendar.DATE, 16); // 16 days from now, what is the intention or meaning???
-        calendar.add(diff, 10); // first argument must be a defined constant in java.util.Calendar
-
-
-        calendarView = findViewById(R.id.calendar);
-
-        calendarView.setEnabled(false);
-
-
-        calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @Override
-            public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
-
-                String msg = "Selected date Day: " + i2 + " Month : " + (i1 + 1) + " Year " + i;
-                Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
-
-
-            }
-        });
-
+        Log.d("TAG", "onCreate: "+simpleCalendarView.getFirstDayOfWeek());
     }
 
 
@@ -75,8 +57,6 @@ public class AttendanceActivity extends AppCompatActivity {
             case android.R.id.home:
                 startActivity(new Intent(AttendanceActivity.this, MainActivity.class));
                 finish();
-//                    //overridePendingTransition(R.anim.slide_out_right, R.anim.slide_in_left);
-
             default:
                 return super.onOptionsItemSelected(item);
         }

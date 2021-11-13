@@ -7,6 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import com.android.mmitschool.MainActivity;
 import com.android.mmitschool.R;
@@ -59,7 +60,19 @@ public class ClassRutineActivity extends AppCompatActivity {
 
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            startActivity(new Intent(ClassRutineActivity.this, MainActivity.class));
+            finish();
+//                    //overridePendingTransition(R.anim.slide_out_right, R.anim.slide_in_left);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
     public void onBackPressed() {
         startActivity(new Intent(ClassRutineActivity.this, MainActivity.class));
+        finish();
     }
 }

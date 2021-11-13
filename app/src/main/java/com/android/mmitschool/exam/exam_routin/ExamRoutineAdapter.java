@@ -1,17 +1,15 @@
-package com.android.mmitschool.exam_routin;
+package com.android.mmitschool.exam.exam_routin;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.mmitschool.R;
-import com.android.mmitschool.fees.CompleteFeesAdapter;
 
 import java.util.ArrayList;
 

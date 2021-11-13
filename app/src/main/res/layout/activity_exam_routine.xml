@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cyan_500"
-    tools:context=".exam_routin.ExamRoutineActivity">
+    tools:context=".exam.exam_routin.ExamRoutineActivity">
     <include layout="@layout/toolbar_layout"/>
 
     <LinearLayout

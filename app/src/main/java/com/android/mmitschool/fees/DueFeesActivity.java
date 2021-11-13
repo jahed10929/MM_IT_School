@@ -79,8 +79,8 @@ public class DueFeesActivity extends AppCompatActivity {
 
         dueFeesModels.add(new DueFeesModel("#12345", "October",
                 "11 Oct 2021", "\u09F3 1000"));
-//        dueFeesModels.add(new DueFeesModel("#12345", "November",
-//                "11 Nov 2021", "\u09F3 1000"));
+        dueFeesModels.add(new DueFeesModel("#12345", "November",
+                "11 Nov 2021", "\u09F3 1000"));
 
         dueFeesAdapter.notifyDataSetChanged();
     }

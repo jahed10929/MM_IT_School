@@ -13,22 +13,21 @@
 
     <!-- Add CalendarView to display the Calendar -->
     <CalendarView
-        android:id="@+id/calendar"
-        android:layout_marginTop="80dp"
+        android:id="@+id/calendar_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:dateTextAppearance="@style/CalenderViewDateCustomText"
         android:theme="@style/CalenderViewCustom"
         android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
-
-        >
-    </CalendarView>
+        android:firstDayOfWeek="1"
+        />
 
     <LinearLayout
         android:id="@+id/layout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/calendar"
+        android:layout_below="@+id/calendar_view"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"

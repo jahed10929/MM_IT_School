@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:id="@+id/exam_sub_name_tv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="English"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/exam_marks_tv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="100"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@color/cyan_50"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_marks_tv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="80"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#F9EAFF"
+        android:textColor="@color/black"
+        />
+</LinearLayout>

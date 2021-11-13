@@ -1,4 +1,4 @@
-package com.android.mmitschool.exam_routin;
+package com.android.mmitschool.exam.exam_routin;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -7,12 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import com.android.mmitschool.MainActivity;
 import com.android.mmitschool.R;
-import com.android.mmitschool.fees.CompleteFeesAdapter;
-import com.android.mmitschool.fees.CompleteFeesModel;
-import com.android.mmitschool.fees.DueFeesActivity;
 
 import java.util.ArrayList;
 
@@ -87,6 +85,17 @@ public class ExamRoutineActivity extends AppCompatActivity {
 
 
         examRoutineAdapter.notifyDataSetChanged();
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            startActivity(new Intent(ExamRoutineActivity.this, MainActivity.class));
+            finish();
+//                    //overridePendingTransition(R.anim.slide_out_right, R.anim.slide_in_left);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 
